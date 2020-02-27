@@ -6,6 +6,7 @@ import io.ebean.Finder;
 import javax.persistence.*;
 import java.util.List;
 
+// Car model java class
 @Entity
 public class Car extends Vehicle{
     private int noOfSeats;
